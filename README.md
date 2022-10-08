@@ -28,3 +28,5 @@ while True:
         break
     # statements
 ```
+
+A common pattern is to implement `__next__()` and `__iter__()` returning object itself. This way object is its own iterator. 

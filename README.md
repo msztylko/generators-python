@@ -32,23 +32,7 @@ while True:
 A common pattern is to implement `__next__()` and `__iter__()` returning object itself. This way object is its own iterator. 
 
 ## Generators
-A generator is a function that produces a sequence of results instead of a single value, e.g.:
-```python
-def countdown(n):
-    while n > 0:
-        yield n
-        n -= 1
-
-for i in countdown(5):
-    print(i, end= ' ')
-    
-5 4 3 2 1
-```
-
-Generators have different behavior than normal function:
-1. Calling a function returns result
-2. Calling a generator creates generator object. However, it does not start running the function.
-
+First exploration [generators.ipynb](./generators.ipynb)
 
 
 

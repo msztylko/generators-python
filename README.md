@@ -44,3 +44,11 @@ for i in countdown(5):
     
 5 4 3 2 1
 ```
+
+Generators have different behavior than normal function:
+1. Calling a function returns result
+2. Calling a generator creates generator object. However, it does not start running the function.
+
+
+
+

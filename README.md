@@ -12,3 +12,19 @@ is said to be "iterable". [`iter()`](https://docs.python.org/3/library/functions
 ```python
 iterator  = iter(iterable)
 ```
+
+### For statement
+```python
+for x in obj:
+    # statements
+```
+correponds to 
+```python
+_iter = iter(obj)             # get iterator object
+while True:
+    try:
+        x = _iter.__next__()  # get next item
+    except StopIteration:     # no more items
+        break
+    # statements
+```

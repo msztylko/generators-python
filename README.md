@@ -32,7 +32,8 @@ while True:
 A common pattern is to implement `__next__()` and `__iter__()` returning object itself. This way object is its own iterator. 
 
 ## Generators
-First exploration [generators.ipynb](./generators.ipynb)
+[generators.ipynb](./generators.ipynb)
 
-
+## Coroutines
+[coroutines.ipynb](./coroutines.ipynb)
 
